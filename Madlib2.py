@@ -1,8 +1,10 @@
 #Madlib.py
-adjective=input("Please enter an adjective: ")
+adjective1 =input("Please enter an adjective: ")
 noun= input("please enter a noun: ")
 verb= input("please entr a verb ending with ed: ")
-animal=input("please enter an animal of your choice: ")
-#preposition=
+animal=input("please enter an animal: ")
+preposition=input("please enter a preposition: ")
+color=input(" please enter a color: ")
+adjective2=input("please enter another adjective:  ")
 print("Your Madlib")
-print("The", adjective, noun, verb, "over the lazy white", animal)
+print("The", adjective1, noun, verb,preposition, "the",adjective2,color, animal)
